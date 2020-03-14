@@ -1,0 +1,43 @@
+*{
+    margin: ;
+    padding: ;
+    box-sizing: border-box;
+}
+
+main {
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+}
+
+.prodotti {
+    height: 280px;
+    width: 250px;
+    border: 2px inset darkorange;
+    margin: 5px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#cuffie {
+    background-image: url(cuffie.jpg);
+}
+
+#camera {
+    background-image: url(camera.jpg)
+}
+
+#smartphone {
+    background-image: url(smartphone.jpg);
+}
+
+i {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+
+}
