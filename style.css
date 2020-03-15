@@ -62,6 +62,7 @@ p {
 }
 
 i {
+    color: red;
     position: absolute;
     top: 93%;
     left: 50%;
