@@ -1,6 +1,6 @@
 *{
-    margin: ;
-    padding: ;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 
@@ -8,6 +8,8 @@ main {
     width: 800px;
     height: 600px;
     border: 2px solid black;
+    margin:auto;
+
 }
 
 .prodotti {
@@ -33,11 +35,26 @@ main {
     background-image: url(smartphone.jpg);
 }
 
+#computer {
+    background-image: url(computer.jpg);
+}
+#mouse {
+    background-image: url(mouse.jpg);
+}
+
+#ps4 {
+    background-image: url(ps4.jpg);
+}
+
 i {
     position: absolute;
     top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
+    display: none;
+}
 
+span:hover i {
+    display: block;
 }
