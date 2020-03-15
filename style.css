@@ -4,23 +4,38 @@
     box-sizing: border-box;
 }
 
-main {
-    width: 800px;
-    height: 600px;
-    border: 2px solid black;
-    margin:auto;
-
+section {
+    position:relative;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .prodotti {
-    height: 280px;
+    height: 300px;
     width: 250px;
     border: 2px inset darkorange;
-    margin: 5px;
+    margin-left: 20px;
     display: inline-block;
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    background-color: orange;
+    width: 20%;
+    padding: 2%;
+    border: 1px solid black;
+    margin-right: 0px;
+    left: 80%;
+    position:absolute;
+}
+
+.sconti-alti {
+    background-color: red;
 }
 
 #cuffie {
@@ -51,10 +66,9 @@ i {
     top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 40px;
-    display: none;
+    opacity: 0;
 }
 
-span:hover i {
-    display: block;
+.prodotti:hover i {
+    opacity: 1
 }
